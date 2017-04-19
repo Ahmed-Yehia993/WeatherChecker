@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="com.orange.weather.controller" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="200" width="625" x="53" y="16"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="com.orange.weather.controller.WeatherController" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/controller/WeatherController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="146" x="91" y="78"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.orange.weather.controller.AppController" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/controller/AppController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="158" x="272" y="79"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.orange.weather.controller.AdminController" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/controller/AdminController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="54" width="172" x="456" y="77"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="5" language="java" name="com.orange.weather.service" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="403" width="956" x="53" y="268"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="6" language="java" name="com.orange.weather.service.NoteService" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/NoteService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="154" x="77" y="358"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="com.orange.weather.service.UserProfileService" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/UserProfileService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="172" x="271" y="358"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.orange.weather.service.UserService" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/UserService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="226" x="503" y="374"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="com.orange.weather.service.PreDefinedNoteService" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/PreDefinedNoteService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="54" width="243" x="739" y="346"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="10" language="java" name="com.orange.weather.service.impl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/impl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="199" width="873" x="120" y="458"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="com.orange.weather.service.impl.UserProfileServiceImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/impl/UserProfileServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="172" x="229" y="493"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.orange.weather.service.impl.UserServiceImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/impl/UserServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="226" x="453" y="529"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.orange.weather.service.impl.PreDefinedNoteServiceImpl" 
+    project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/impl/PreDefinedNoteServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="55" width="243" x="732" y="495"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.orange.weather.service.impl.NoteServiceImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/service/impl/NoteServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="55" width="154" x="138" y="565"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="15" language="java" name="com.orange.weather.dao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="546" width="964" x="50" y="703"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="16" language="java" name="com.orange.weather.dao.UserProfileDao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/UserProfileDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="172" x="265" y="741"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="com.orange.weather.dao.NoteDao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/NoteDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="160" x="89" y="742"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="com.orange.weather.dao.HibernateTokenRepositoryImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/HibernateTokenRepositoryImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="55" width="296" x="43" y="871"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.orange.weather.dao.AbstractDao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/AbstractDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="183" x="479" y="837"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="com.orange.weather.dao.PreDefinedNoteDao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/PreDefinedNoteDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="243" x="763" y="741"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="com.orange.weather.dao.UserDao" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/UserDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="149" x="600" y="752"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="22" language="java" name="com.orange.weather.dao.impl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/impl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="223" width="705" x="292" y="964"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="23" language="java" name="com.orange.weather.dao.impl.NoteDaoImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/impl/NoteDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="54" width="132" x="481" y="1035"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.orange.weather.dao.impl.PreDefinedNoteDaoImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/impl/PreDefinedNoteDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="159" x="624" y="1037"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.orange.weather.dao.impl.UserDaoImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/impl/UserDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="54" width="149" x="826" y="1037"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.orange.weather.dao.impl.UserProfileDaoImpl" project="WeatherChecker" 
+    file="/WeatherChecker/src/main/java/com/orange/weather/dao/impl/UserProfileDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="54" width="172" x="309" y="1030"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="27">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="28">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="29" name="preDefinedNoteService"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="32" name="noteService"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="35" name="UserServiceImpl"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="40">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="41" name="dao"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="44" name="preDefineNoteService"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="47" name="notService"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="50" name="preDefinedNoteDao"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="53">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="54" name="userService"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="57" name="dao"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="59">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="61">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="62" name="userProfileService"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="64">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="65">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="67">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="68">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="69" name="dao"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="73" name="userService"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
